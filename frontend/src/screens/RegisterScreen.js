@@ -127,7 +127,7 @@ const RegisterScreen = ({ location }) => {
                 <Form.Label>Contact Number</Form.Label>
                 <Form.Control
                   type="name"
-                  placeholder="03001234567"
+                  placeholder="+61123456789"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required

@@ -23,6 +23,6 @@ router
 router.route("/:id/answers").post(protect, createAnswer);
 router
   .route("/:id/answers/:answerId")
-  .put(protect, expert, updateAnswer)
-  .delete(protect, expert, deleteAnswer);
+  .put(protect, updateAnswer)
+  .delete(protect, deleteAnswer);
 export default router;
